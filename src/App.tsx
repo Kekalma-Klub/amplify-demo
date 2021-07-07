@@ -13,7 +13,7 @@ class App extends Component<AppProps, AppState>
   {
     return (
       <div className="App">
-        <h1>This is a rollup project!</h1>
+        <h1>This is an Amplify project!</h1>
       </div>
     );
   }
