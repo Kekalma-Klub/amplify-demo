@@ -1,0 +1,17 @@
+{
+  "projectName": "amplifydemo",
+  "version": "3.1",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "react",
+    "config": {
+      "SourceDir": "src",
+      "DistributionDir": "build",
+      "BuildCommand": "yarn react-scripts build",
+      "StartCommand": "yarn serve"
+    }
+  },
+  "providers": [
+    "awscloudformation"
+  ]
+}
