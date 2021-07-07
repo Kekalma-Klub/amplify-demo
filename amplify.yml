@@ -10,7 +10,7 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npm install
+        - yarn
     build:
       commands: ["yarn react-scripts build"]
   artifacts:
